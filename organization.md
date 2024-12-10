@@ -2,7 +2,7 @@
 
 ## Coact :id=coact
 
-[Coact](http://coact.slac.stanford.edu) is our portal for scientific resources and access management to S3DF. Facility czars control who gets access and how facility resources are distributed via Allocations. Every new S3DF user must first login to coact (using their Unix account) and request S3DF access by specifying a facility. The facility czar must then approve the request before the user can login.
+[Coact](http://coact.slac.stanford.edu) is our portal for scientific resources and access management to S3DF. Facility czars control who gets access and how Facility Resources are distributed via Allocations. Every new S3DF user must first register with Coact and request S3DF access by specifying a Facility that they are affiliated with. The facility czar must then approve the request before the user can login.
 
 ### Facilities :id=facility
 
@@ -23,7 +23,7 @@ Requests form the basis for how Facility czars and Facility members self manage 
 
 ### Facility Resources
 
-A Facility may purchase resources (compute, storage, kubernetes nodes etc). Such resources are allocated to the Facility and the Facilty czar may choose to share these resources amongst the Facility's Repo's. Since the Facilty has purchased these resources, the members of the Facilities Repos will have prioritized and/or exclusive use of these resources.
+A Facility may purchase resources (compute, storage, kubernetes nodes etc). Such resources are allocated to the Facility and the Facilty czar may choose to share these resources amongst the Facility's Repos. Since the Facilty has purchased these resources, the members of the Facilities Repos will have prioritized and/or exclusive use of these resources.
 
 
 ### Batch Cluster
