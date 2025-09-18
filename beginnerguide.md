@@ -10,7 +10,7 @@ step-by-step workflow suitable for all users, especially those with limited comp
 Follow these instructions to efficiently connect to the S3DF environment and run your desired software. Let's get started!
   
 
-## Logging In Through SSH
+## Access to S3DF Through **SSH**
 
 This example provides a clear, step-by-step workflow for running software, ACE3P (Advanced Computational Electromagnetics 3D Parallel), on S3DF throgh SSH. 
 
