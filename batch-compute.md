@@ -1,6 +1,6 @@
 # Batch Compute
 
-## Slurm
+## Slurm :id=slurm
 
 Slurm is a batch scheduler that enables users to submit compute jobs
 of varying scope to our compute clusters. It will queue up jobs such
