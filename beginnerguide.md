@@ -10,7 +10,7 @@ step-by-step workflow suitable for all users, especially those with limited comp
 Follow these instructions to efficiently connect to the S3DF environment and run your desired software. Let's get started!
   
 
-## Access to S3DF Through **SSH**
+## Access to S3DF Through SSH
 
 This example provides a clear, step-by-step workflow for running software, ACE3P (Advanced Computational Electromagnetics 3D Parallel), on S3DF throgh SSH. 
 
@@ -59,7 +59,7 @@ Once your jobs have completed, you can view the data output directly on the pool
 - 8. Transfer Data (If Necessary)
 If you need to transfer data, connect to a data transfer node to facilitate the movement of your files. Use appropriate file transfer commands (e.g., scp, rsync) to move your data to the desired location.
 
-## Access to S3DF Through SSH
+## Access to S3DF Through NoMachine
  - NoMachine offers a specialized remote desktop solution that enhances the performance of X11 graphics over slow connections, compared to SSH.
  - A key feature of NoMachine is its ability to maintain the state of your desktop across multiple sessions, even if your internet connection is unexpectedly lost.
  - To access NoMachine, use the login pool at s3dfnx.slac.stanford.edu.
