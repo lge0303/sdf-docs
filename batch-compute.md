@@ -75,8 +75,7 @@ running experiment.
 
 
 
-See the table below to determine the specifications for each
-cluster/partition.
+See the table below to determine the specifications for each cluster/partition :id=cluster
 
 | Partition name | CPU model | Useable cores per node | Useable memory per node | GPU model | GPUs per node | Local scratch | Number of nodes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
