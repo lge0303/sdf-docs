@@ -9,6 +9,16 @@ concurrency storage systems.
 
 ## Quick Reference
 
+- [Get Started](GettingStarted.md) - Information for new and existing S3DF users
+- [Beginner's Guide](beginner-user.md) - Step by step guide for new users
+- [Get Help](help.md) - How to get help
+- [OnDemand Document](interactive-compute.md#ondemand) - Access S3DF through Open OnDemand via any (modern) browser
+- [Jupyter](interactive-compute.md#jupyter) - Interactive Jupyter Notebooks at S3DF
+- [Example Job Scripts](examplescripts.md) - example job scripts
+- [Multi-Factor Authentication (MFA)](multifactor.md) - How to set up and use MFA for your S3DF account
+- [Systems](systems.md) - Computing resources at S3DF
+
+  
 | Access 	| Address | 
 | :--- | :--- |
 | SSH 	|  s3dflogin.slac.stanford.edu|
@@ -22,4 +32,4 @@ concurrency storage systems.
 | S3DF Dashboard & Monitoring | https://grafana.slac.stanford.edu|
 
 
-![SRCF-II](assets/srcf-ii.png)
+![Resource](assets/Resource.png)
