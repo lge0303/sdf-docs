@@ -14,20 +14,20 @@ Follow these instructions to efficiently connect to the S3DF environment and run
 
 This example provides a clear, step-by-step workflow for running software, ACE3P (Advanced Computational Electromagnetics 3D Parallel), on S3DF throgh SSH. 
 
-- 1. Connect to a Login Node
+- Connect to a Login Node
 To start, connect to the login node using the following command:
 
                   ssh username@s3dflogin.slac.stanford.edu
 
-- 2. Connect to a Pool Node
+- Connect to a Pool Node
 After successfully connecting to the login node, establish a second connection to a pool node using SSH. For example:
 
                   ssh iana
      
-- 3. Set Up the Running Environment
+-  Set Up the Running Environment
 To set up the running environment, create a bash file containing all necessary commands, and then execute the bash file.
 
-- 4. Configure an [SLURM](batch-compute.md#)slurm Job Script
+-  Configure an [SLURM](batch-compute.md#)slurm Job Script
 Here is an example SLURM job script named run.sbatch:
 
 
@@ -43,20 +43,20 @@ Here is an example SLURM job script named run.sbatch:
                   mpirun /sdf/group/rfar/ace3p/bin/omega3p pillbox.omega3p
 
 
- - 5. Submit Jobs to a Compute Node
+ -  Submit Jobs to a Compute Node
 Use the sbatch command to submit your job to a compute node for execution:
 
                   sbatch run.sbatch
 
- - 6. Check the Status of Running Jobs (Optional)
+ -  Check the Status of Running Jobs (Optional)
 To monitor the status of your submitted jobs, run the following command:
 
                   squeue -u username
 
-- 7. View Data Output
+-  View Data Output
 Once your jobs have completed, you can view the data output directly on the pool node to verify that the results are as expected.
 
-- 8. Transfer Data (If Necessary)
+-  Transfer Data (If Necessary)
 If you need to transfer data, connect to a data transfer node to facilitate the movement of your files. Use appropriate file transfer commands (e.g., scp, rsync) to move your data to the desired location.
 
 ## Access to S3DF Through NoMachine
