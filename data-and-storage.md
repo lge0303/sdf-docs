@@ -1,6 +1,6 @@
 # Storage
 
-## Directory Structure
+## Directory Structure :id=directory
 
 To promote long term consistency, the S3DF directory structure provides immutable paths, independent from the underlying file system organization and technology:
 
